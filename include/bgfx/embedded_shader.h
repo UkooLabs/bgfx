@@ -20,6 +20,7 @@
 
 #define BGFX_PLATFORM_SUPPORTS_DX9BC (0 \
 		|| BX_PLATFORM_WINDOWS          \
+		|| BX_PLATFORM_XBOX360          \
 		)
 #define BGFX_PLATFORM_SUPPORTS_DXBC (0  \
 		|| BX_PLATFORM_WINDOWS          \

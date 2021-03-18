@@ -204,6 +204,9 @@ namespace stl = std;
 #	include <android/native_window.h>
 #elif BX_PLATFORM_WINDOWS
 #	include <windows.h>
+#elif BX_PLATFORM_XBOX360
+#	include <malloc.h>
+#	include <xtl.h>
 #endif // BX_PLATFORM_*
 
 #define BGFX_MAX_COMPUTE_BINDINGS BGFX_CONFIG_MAX_TEXTURE_SAMPLERS
