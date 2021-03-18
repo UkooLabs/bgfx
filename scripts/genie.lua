@@ -135,7 +135,7 @@ solution "bgfx"
 		platforms {
 			"x32",
 			"x64",
---			"Xbox360",
+			"Xbox360",
 			"Native", -- for targets where bitness is not specified
 		}
 	end
